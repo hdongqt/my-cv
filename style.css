@@ -91,17 +91,6 @@ body {
   color: #e5dcde;
 }
 
-.contact-title {
-  font-size: 2rem;
-  font-weight: 900;
-  color: #f6ee07;
-  margin: 20px 0;
-}
-.contact-detail {
-  font-size: 1.4rem;
-  font-weight: 600;
-  margin: 4px 0;
-}
 .comment-symbol {
   color: #98acbea6;
 }
@@ -218,15 +207,13 @@ body {
   }
   .header {
     flex-direction: column;
+    padding-top: 44px;
   }
   .content {
     padding: 20px 28px;
   }
   .row-number {
     display: none;
-  }
-  .contact-detail {
-    word-break: break-all;
   }
   .main {
     grid-template-columns: 1fr;
@@ -235,7 +222,6 @@ body {
   .summary {
     grid-column: unset;
   }
-  .contact-title,
   .block-title {
     text-align: center;
   }
@@ -256,5 +242,15 @@ body {
   }
   .mouse-magic {
     visibility: hidden;
+  }
+  .bg-custom__code:first-child {
+    top: 260px;
+  }
+  .bg-custom__code:nth-child(3) {
+    top: 1px;
+    left: 4px;
+  }
+  .bg-custom__code:nth-child(6) {
+    top: 24px;
   }
 }
